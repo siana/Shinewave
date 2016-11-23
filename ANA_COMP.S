@@ -6,8 +6,8 @@
  *  Author: Garrett
  */ 
 
-#include <avr/io.h>
 #define __SFR_OFFSET 0
+#include <avr/io.h>
 
 .extern byte_buffer, byte_index, bitmask
 
